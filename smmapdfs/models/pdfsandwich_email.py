@@ -22,6 +22,7 @@ from django.utils.translation import ugettext_lazy as _
 languages = [
     ("en", _("English")),
     ("cs", _("Czech")),
+    ("sk", _("Slovak")),
     ("dsnkcs", _("Škola")),
 ]
 
