@@ -6,13 +6,13 @@ name = "pypi"
 [packages]
 reportlab = "*"
 django-import-export = "*"
-Django = ">=2"
+Django = ">=5"
 "PyPDF2" = "*"
 "django-related-admin" = "*"
 "django-celery" = "*"
 "django-colorfield" = "*"
 
 [requires]
-python_version = "3.5"
+python_version = "3.11"
 
 [dev-packages]
