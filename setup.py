@@ -8,9 +8,7 @@ import codecs
 
 requires = ["Django"]
 
-version = subprocess.check_output(["git", "describe", "--abbrev=0", "--tags"]).decode(
-    "utf-8"
-)
+version = "1.2.1"
 
 setup(
     name="django-smmapdfs",
