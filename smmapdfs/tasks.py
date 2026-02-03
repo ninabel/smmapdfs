@@ -1,4 +1,4 @@
-from celery import task
+from celery import shared_task as task
 
 from django.contrib.contenttypes.models import ContentType
 

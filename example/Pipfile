@@ -13,6 +13,6 @@ Django = ">=5"
 "django-colorfield" = "*"
 
 [requires]
-python_version = "3.11"
+python_version > "3.11"
 
 [dev-packages]
